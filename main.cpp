@@ -108,10 +108,14 @@ int main() {
 
     while (true) {
         radar_map = update_radar(serv,sensor, radar_map, accuracy);
+        
+        //Sends data over serial where its read by the python application named gui.py
         for (auto const &pair: radar_map) {
             printf("%g:",pair.first);
             printf("%g\n",pair.second);
         }
+        
+        //The servo is then reset to its original position
         serv.position(400);
         sleep_ms(500);
 

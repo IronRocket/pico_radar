@@ -8,7 +8,9 @@ pygame.init()
 WIDTH = 800
 HEIGHT = 1000
 WIN = pygame.display.set_mode((WIDTH,HEIGHT))
-
+run = True
+FPS = 60
+dots = {}
 
 def display(dots):
     WIN.fill((0,0,0))
@@ -20,10 +22,6 @@ def display(dots):
     pygame.display.update()
 
 
-
-run = True
-FPS = 60
-dots = {}
 
 #Setting up pico connection
 connected = False
@@ -47,11 +45,13 @@ while run:
             pygame.quit()
 
     if serialinit.in_waiting:
+        #Gathering data from the the pico over serial
         packet = serialinit.readline()
         deg,dis = packet.decode("utf-8").strip("\n").split(":")
         deg = float(deg)
         dis = float(dis)
         dots[deg] = dis
+
     display(dots)
 
     
