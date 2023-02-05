@@ -17,8 +17,10 @@ Servo <br/>
 This code is the core of the program. <br/>
 The function takes the objects servo and sensor as its paramerters. <br/>
 Its also takes a map and returns the map containing pairs of degrees and distance. <br/>
+The distance is measured in inches. <br/>
 
 ## For Example
+{degrees,distance(in)}
 ```cpp
 std::map<float,float> radar_map = {
     {107.2,3},
