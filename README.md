@@ -7,5 +7,5 @@ Raspberry Pi Pico
 Ultrasonic sensor(HC-SR04)
 Servo
 
-<img src="images/radar.png" width="400" height="400"/>
+<img src="images/radar_hardware.png" width="816" height="614.4"/>
 
