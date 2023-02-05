@@ -4,6 +4,12 @@ using the libraries I have previously developed.
 
 # Requirements
 Ultrasonic sensor(HC-SR04)
-<img src="images/ultrasonic_sensor.png" width: 50% height: 50%/>
+<style>
+    .cats{
+        width: 50%;
+        height: 50%;
+    }
+</style>
+<img src="images/ultrasonic_sensor.png" class="cats"/>
 Servos
 ![](images/servo.png)
