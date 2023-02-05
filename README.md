@@ -28,7 +28,7 @@ std::map<float,float> radar_map = {
 }
 ```
 
-The last parameter named accuracy increases the "resolution" or accuracy of the radar. <br/>
+The last parameter named accuracy, increases the "resolution" or accuracy of the radar. <br/>
 By default the accuacy is 0.05. <br/>
 It is recommended not to increase the number beyond 0.09 <br/>
 
