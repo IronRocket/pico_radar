@@ -9,3 +9,6 @@ Servo
 
 <img src="images/radar_hardware.jpg" width="816" height="614.4"/>
 
+## Graphical representation of radar data
+
+<img src=images/radar.png width="852.5" height="451.6"/>
