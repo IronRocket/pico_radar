@@ -6,8 +6,8 @@ using the libraries I have previously developed.
 Ultrasonic sensor(HC-SR04)
 <style>
     .cats{
-        width: 50%;
-        height: 50%;
+        width: 12.5%;
+        height: 12.5%;
     }
 </style>
 <img src="images/ultrasonic_sensor.png" class="cats"/>
